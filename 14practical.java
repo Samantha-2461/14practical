@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+
+
 public class DataGenerator {
     public static class Pair {
         String key;
@@ -76,7 +79,7 @@ public class openHash {
         return null;
     }
 }
-import java.util.LinkedList;
+
 
 public class chainedHash {
     private class Node {
@@ -106,7 +109,7 @@ public class chainedHash {
         
         for (Node node : table[i]) {
             if (node.key.equals(key)) {
-                node.value = value; // update
+                node.value = value; 
                 return;
             }
         }
