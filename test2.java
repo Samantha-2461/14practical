@@ -7,7 +7,6 @@ public class openHash {
     
     private Entry[] table;
     private int m;
-    
     public openHash(int tableSize) {
         this.m = tableSize;
         table = new Entry[m + 1]; 
